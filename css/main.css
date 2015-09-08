@@ -42,7 +42,7 @@ h4 {
 }
 
 .header-bar {
-	background-color: #202024;
+	background-color: #000000;
 	min-height: 75px;
 }
 .set-nav {
@@ -69,7 +69,7 @@ h4 {
     border-radius: 5px;
     border-style : solid;
     border-width : 1px;
-    background-color : #202024;
+    background-color : #000000;
 }
 
 .nav .open > a, 
@@ -80,7 +80,7 @@ h4 {
     border-radius: 5px;
     border-style : solid;
     border-width : 1px;
-    background-color : #202024;
+    background-color : #000000;
 }
 
 .ddbox .active > a, 
@@ -91,7 +91,7 @@ h4 {
     border-radius: 5px;
     border-style : solid;
     border-width : 1px;
-    background-color : #202024;
+    background-color : #000000;
 }
 
 .logo {
@@ -482,7 +482,7 @@ button.navbar-toggle {
 .dbox ul {
 	text-align:left;
 	color:#CACACA;
-	background-color:#202024;
+	background-color:#000000;
 }
 
 .ddbox {
@@ -693,11 +693,11 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 
 
 .carousel-indicators .active {
-	background-color:#202024;
+	background-color:#000000;
 }
 
 .carousel-indicators li {
-	border:1px solid #202024;
+	border:1px solid #000000;
 }
 /* Start Social Media Icons */
 @font-face {
@@ -840,7 +840,7 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
 	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
-		background-color:#202024;
+		background-color:#000000;
 	}
 }
 @media(min-width:768px){
