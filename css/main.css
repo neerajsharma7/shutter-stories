@@ -37,7 +37,7 @@ h4 {
 
 .set-header {	 
     font-size: 14px;    
-    background-color : #202024;
+    background-color : #000000;
     min-height: 75px;    
 }
 
@@ -502,7 +502,7 @@ button.navbar-toggle {
 }
 
 .bottom_line {
-	background-color:#0A0A0B;
+	background-color:#000000;
 	border-top: 1px solid #0A0A0B;
 	padding:20px;
 }
