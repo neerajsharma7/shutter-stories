@@ -72,28 +72,66 @@
 	</header>
 	<section style="color:#eee; background-color:#000;">
 		<div class="container">
-			<div class="row padding20">
+			<div class="row" style="padding:15px 0px 5px 0px;">
 				<div class="col-md-4">
-					<img src="images/tile_1.jpg" style="width:370px; height:400px;" />
+					<figure class="gallery-item">
+						<img src="images/tile_1.jpg" style="height:300px;" />						
+							<figcaption class="img-title">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								<a href="javascript:void(0);"><h5>Zoom Image<h5></a>
+							</figcaption>						
+					</figure>
+				</div>				
+			
+				<div class="col-md-4">
+					<figure class="gallery-item">
+						<img src="images/tile_2.jpg" style="height:300px;" />
+						<figcaption class="img-title">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							<a href="javascript:void(0);"><h5>Zoom Image<h5></a>
+						</figcaption>
+					</figure>
 				</div>
 				<div class="col-md-4">
-					<img src="images/tile_2.jpg" style="width:370px; height:400px;" />
-				</div>
-				<div class="col-md-4">
-					<img src="images/tile_3.jpg" style="width:370px; height:400px;" />
+					<figure class="gallery-item">
+						<img src="images/tile_3.jpg" style="height:300px;" />
+						<figcaption class="img-title">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							<a href="javascript:void(0);"><h5>Zoom Image<h5></a>
+						</figcaption>
+					</figure>
 				</div>
 			</div>	
-			<div class="row padding20">
+			<div class="row" style="padding:15px 0px 5px 0px;">
 				<div class="col-md-4">
-					<img src="images/tile_1.jpg" style="width:370px; height:400px;" />
+					<figure class="gallery-item">
+						<img src="images/tile_1.jpg" style="height:300px;" />						
+							<figcaption class="img-title">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								<a href="javascript:void(0);"><h5>Zoom Image<h5></a>
+							</figcaption>						
+					</figure>
+				</div>				
+			
+				<div class="col-md-4">
+					<figure class="gallery-item">
+						<img src="images/tile_2.jpg" style="height:300px;" />
+						<figcaption class="img-title">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							<a href="javascript:void(0);"><h5>Zoom Image<h5></a>
+						</figcaption>
+					</figure>
 				</div>
 				<div class="col-md-4">
-					<img src="images/tile_2.jpg" style="width:370px; height:400px;" />
+					<figure class="gallery-item">
+						<img src="images/tile_3.jpg" style="height:300px;" />
+						<figcaption class="img-title">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							<a href="javascript:void(0);"><h5>Zoom Image<h5></a>
+						</figcaption>
+					</figure>
 				</div>
-				<div class="col-md-4">
-					<img src="images/tile_3.jpg" style="width:370px; height:400px;" />
-				</div>
-			</div>		
+			</div>
 		</div>
 	</section>		
 	<footer>
@@ -158,3 +196,15 @@
 	<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+<script>
+	$(document).ready( function() {
+		$('.gallery-item').hover( function() {
+			$(this).find('.img-title').fadeIn(300);
+		}, function() {
+			$(this).find('.img-title').fadeOut(100);
+		});
+		
+	});
+
+</script>
