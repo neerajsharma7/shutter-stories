@@ -607,7 +607,7 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 .gallery-item {
     position: relative;
     overflow:hidden;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .gallery-item img {
