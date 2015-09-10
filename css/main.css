@@ -625,18 +625,22 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
     height: 100%;
     width: 100%;
     text-align: center;
-    padding:10px;
+    padding:10px;    
     /*opacity: 0;*/
     display: none; /* comment this out for CSS hover */
-    /*background-color: rgba(255,255,255,0.5);*/
-    background-color: rgba(215, 44, 44, 0.6);
+    /*background-color: rgba(215, 44, 44, 0.6);*/
+    background-color: rgba(255, 253, 208, 0.6);
     transition: all 0.9s ease;
 }
 
-    .img-title h5 {
-        position: absolute;
-        color: #fff;
-        width: 100%;
-        text-align: center;
-        font-weight: bold;
-    }
+.img-title h5 {
+	position: absolute;
+	color: #C71C2C;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.img-title {
+	color :#000;
+}
