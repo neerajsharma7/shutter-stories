@@ -109,16 +109,21 @@ h4 {
 	margin-top:-12px;
 }
 
-.logo a {
-	color : #fff;
-}
-
 .logo a:hover {
     text-decoration: none;
 }
 
-.white {
-	color: #fff;
+.logo-name {
+	color:#C71C2C;
+	padding-left: 46px;
+	font-style:italic;
+	padding-left:140px;
+	margin-top:10px;
+}
+
+.logo-name-style {
+	color:#fff;
+	font-size:40px;
 }
 
 .set-footer {
@@ -159,8 +164,47 @@ h4 {
 	padding : 20px;
 }
 
-.bold {
+.listing-design {
+	color:#eee;
+	background-color:#000;
+}
+.gallery-item {
+    position: relative;
+    overflow:hidden;
+    border-radius:5px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+}
+
+.img-title {
+    position: absolute;
+    top: 150px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding:10px;    
+    /*opacity: 0;*/
+    display: none; /* comment this out for CSS hover */
+    /*background-color: rgba(215, 44, 44, 0.6);*/
+    background-color: rgba(255, 253, 208, 0.6);
+    transition: all 0.9s ease;
+    color :#000;
+}
+
+.img-title h5 {
+	position: absolute;
+	color: #C71C2C;
+	width: 100%;
+	text-align: center;
 	font-weight: bold;
+}
+
+.row-gap {
+	padding:25px 0px 0px 0px;
 }
 
 .map-box-head {
@@ -197,10 +241,6 @@ h4 {
     box-shadow: none;
     height: auto;
     padding: 15px;
-}
-
-.site_name {
-	color:#C71C2C; 
 }
 
 button.navbar-toggle {
@@ -602,45 +642,4 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 	.logo {
 		padding: 0px 100px 0px 100px;
 	}
-}
-
-.gallery-item {
-    position: relative;
-    overflow:hidden;
-    border-radius:5px;
-}
-
-.gallery-item img {
-    width: 100%;
-}
-
-.gallery-item:hover .img-title {
-    /*opacity: 1;*/
-}
-
-.img-title {
-    position: absolute;
-    top: 150px;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding:10px;    
-    /*opacity: 0;*/
-    display: none; /* comment this out for CSS hover */
-    /*background-color: rgba(215, 44, 44, 0.6);*/
-    background-color: rgba(255, 253, 208, 0.6);
-    transition: all 0.9s ease;
-}
-
-.img-title h5 {
-	position: absolute;
-	color: #C71C2C;
-	width: 100%;
-	text-align: center;
-	font-weight: bold;
-}
-
-.img-title {
-	color :#000;
 }
