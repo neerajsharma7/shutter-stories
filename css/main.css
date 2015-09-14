@@ -52,7 +52,7 @@ h4 {
 
 .navbar-default {
 	border: 0px none;
-	border-bottom : 1px solid #C71C2C; 
+	border-bottom : 1px solid #CC0066; 
 }
 .navbar-collapse > .navbar-nav a {
 	border: 1px solid transparent;
@@ -116,7 +116,7 @@ h4 {
 }
 
 .logo-name {
-	color:#C71C2C;
+	color: #CC0066;
 	padding-left: 46px;
 	font-style:italic;
 	padding-left:140px;
@@ -140,16 +140,16 @@ h4 {
 }
 
 .theme-color {
-	color : #C71C2C;
+	color : #CC0066;
 }
 
 .theme-background-color {
-	background-color : #C71C2C;
+	background-color : #CC0066;
 }
 
 .btn:hover,
 .btn:focus {
-	background-color: #C71C2C;
+	background-color: #CC0066;
 	border: 1px solid #eee;
 }
 
@@ -182,7 +182,7 @@ h4 {
 }
 
 .home-details {	
-	border: #C71C2C 1px solid;
+	border: #CC0066 1px solid;
 	border-radius: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -207,11 +207,11 @@ h4 {
 
 .box-text a,
 .box-text h4 {
-	color: #C71C2C;
+	color: #CC0066;
 }
 
 .heading-line {
-	border: dashed 1px #C71C2C;
+	border: dashed 1px #CC0066;
 }
 
 .col-md-6 {
@@ -263,7 +263,7 @@ h4 {
 
 .img-title h5 {
 	position: absolute;
-	color: #C71C2C;
+	color: #CC0066;
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
@@ -349,7 +349,7 @@ button.navbar-toggle {
 }
 
 .error {
-	color:#C71C2C; 	
+	color: #CC0066;
 }
 
 .bottom_line {
