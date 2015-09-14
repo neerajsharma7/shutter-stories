@@ -140,15 +140,16 @@ h4 {
 }
 
 .theme-color {
-	color : #C71C2A;
+	color : #C71C2C;
 }
 
 .theme-background-color {
-	background-color : #C71C2A;
+	background-color : #C71C2C;
 }
 
-.btn:hover {
-	background-color: #C71C2A;
+.btn:hover,
+.btn:focus {
+	background-color: #C71C2C;
 	border: 1px solid #eee;
 }
 
@@ -181,7 +182,7 @@ h4 {
 }
 
 .home-details {	
-	border: #C71C2A 1px solid;
+	border: #C71C2C 1px solid;
 	border-radius: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -200,10 +201,37 @@ h4 {
 	background-color:#000;
 }
 
+.box-text {
+	margin: 70px 70px 0px 70px;
+}
+
+.box-text a,
+.box-text h4 {
+	color: #C71C2C;
+}
+
+.heading-line {
+	border: dashed 1px #C71C2C;
+}
+
+.col-md-6 {
+	padding : 0px;
+}
+
+.page-style {
+	color: #eee;
+	background-color: #4E4E4E;
+}
+
 .group-box {
 	color: #cacaca;
 	background-color: #000000;
 	font-style: italic;
+}
+
+.group-box .col-md-6 > img {
+	width: 100%;
+	height: 410px;
 }
 
 .gallery-item {
