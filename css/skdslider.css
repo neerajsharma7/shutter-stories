@@ -34,6 +34,7 @@
 	margin-right:4px;
 	cursor:pointer;
 }
+
 .skdslider ul.slide-navs li.current-slide {
   background: url("../images/slide-bg-active.png") no-repeat scroll 0 0 transparent;
 }
@@ -44,8 +45,8 @@
     padding: 0 15px 0 15px;
     position: absolute;
     bottom: 15%;
-    max-width: 85%;
-	display:inline-block;
+    max-width: 50%;
+	display: inline-block;
 }
 .skdslider .slide-desc > h2 {
     color: #CFDB0C;
