@@ -45,6 +45,7 @@ h4 {
 	background-color: #000000;
 	min-height: 75px;
 }
+
 .set-nav {
 	margin-top : 12px;
 }
@@ -59,6 +60,7 @@ h4 {
 	margin:7px;
     padding:7px;
 }
+
 .navbar-collapse > .navbar-nav a:hover,
 .navbar-collapse .navbar-nav >.active > a,
 .navbar-collapse .navbar-nav >.active > div.dropdown > a,
