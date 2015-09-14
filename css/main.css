@@ -196,8 +196,12 @@ h4 {
 	padding: 20px;
 }
 
+.home-details-text h2 {
+	margin-top: 0px;
+}
+
 .book-now {
-	margin-top: 25px;
+	margin-top: 10px;
 	border: 1px solid #CC0066;
 	border-radius: 10px;
 }
