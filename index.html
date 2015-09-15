@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/skdslider.css" rel="stylesheet">
+    <link href="css/colorbox.css" rel="stylesheet">
   </head>
   <body>
 	<header> <!-- #C71C2C -->
@@ -93,7 +94,8 @@
 						all the pictures you have seen, the books you have read, the music you have heard, the people you have loved.”
 					</div>
 					<div class="col-md-3 theme-color book-now">
-						<h1>Book Now</h1>
+					<p><a class="ajax" href="booknow.html" style="color: #CC0066; text-decoration: none;"><h1>Book Now</h1></a></p>						
+					</a>
 					</div>
 				</div>		
 			</div>
@@ -232,22 +234,29 @@
 								<li><a class="soc-rss soc-icon-last" href="javascript:void(0);"></a></li>
 							</ul>							
 						</div>
-					</div>
-					
-										
+					</div>										
 				</div>
 			</div>
 			<div class="row text-center bottom_line">
-				© 2015 Shutter Stories | All Rights Reserved
+				© 2015 Shutter Stories | All Rights Reserved				
 			</div>	
 		</div>
 	</footer>
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>	
-	<script src="js/skdslider.min.js"></script>	
+	<script src="js/skdslider.min.js"></script>
+	<script src="js/jquery.colorbox-min.js"></script>	
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('#slider').skdslider({delay:5000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			
+			$(".ajax").colorbox({height:"70%"});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
 		});
 	</script>
   </body>
