@@ -10,6 +10,13 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/colorbox.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="css/jquery.bs.message.min.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bs.message.min.js"></script>
+	<script type="text/javascript" src="js/contactus.js"></script>
+	<script src="https://cdn.firebase.com/js/client/1.1.0/firebase.js"></script>
   </head>
   <body>
 	<header>
@@ -50,7 +57,7 @@
 									</ul>
 								</div>
 							</li>
-							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
 							<li class="active"><a href="javascript:void(0);">Contact Us</a></li>
 						</ul>
 					</div>
@@ -58,15 +65,79 @@
 			</nav>
 		</div>
 	</header>
-	<section>
-		<div class="container padding20">
-			<div class="row text-center">
-				<div class="col-md-12">
-					<img src="images/coming_soon.gif" />
+	<section class="listing-design">
+		<div class="map-box-head">
+			Call 973-723-4911 now for any query!
+		</div>
+		<div class="map">
+			<figure>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.640285774505!2d-74.3319305!3d40.5495357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b66bb27ffea7%3A0x5cfa6518f3a9085!2s192+Evergreen+Rd+%2310%2C+Edison%2C+NJ+08837%2C+USA!5e0!3m2!1sen!2sin!4v1433182836855" width="600" height="450" frameborder="0" style="border:0"></iframe>
+			</figure>
+		</div>		
+		<hr style="border: 1px solid #CC0066; margin-top: -5px;"/>	
+		<div class="container admin_box padding20">
+			<div class="row">
+				<div class="col-md-12"> 
+					<div class="col-md-8">
+						<h4>Request Form</h4>
+						<p>For booking or any query simply fill-out the form and a representative of the company will contact you shortly.</p>
+						<form action="" method="post" id="contact_us_form">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="n" class="form-control" placeholder="Name (Required):">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="tp" class="form-control" placeholder="Telephone (Required):">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="e" class="form-control" placeholder="Email (Required):">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="e" class="form-control" placeholder="Occasions:">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea class="form-control" name="m" placeholder="Message:" rows="10"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 text-right">
+									<button type="submit" class="btn btn-danger theme-background-color">Contact Us Today</button>
+								</div>
+							</div>                                    
+						</form> <br />
+						<div id="msg"></div>                             
+					</div>                                   
+					<div class="col-md-4">
+						<h4>Contact Information</h4>
+						<h5 class="theme-color bold">Shutter Stories</h5>
+						<p class="bold service_heading">Business Address:</p>
+						<p>192 evergreen road,</p>
+						<p>Suite 10 A, Edison, NJ 08837</p>
+						<p><span class="bold">Telephone:</span> 999-999-9999</p>
+						<p><span class="bold">Website:</span> www.shutterstories.com</p> <br />
+						<p class="bold">Business Hours:</p>
+						<p>Mon-Fri 9:00am-5:00pm</p>
+						<p>Sat-Sun 10:00am-3:00pm</p>
+						<p>Or By Appointment</p>
+					</div>  
 				</div>
 			</div>
 		</div>		
-	</section>		
+	</section>			
 	<footer>
 		<div class="set-footer">
 			<div class="container">				
@@ -124,7 +195,6 @@
 			</div>	
 		</div>
 	</footer>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	
   </body>
 </html>

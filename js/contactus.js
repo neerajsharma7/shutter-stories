@@ -11,6 +11,9 @@ $(function() {
 				e: {
 					required: true,
 					email: true
+				},
+				tp: {
+					required: true
 				}
 			},
 			messages: {
@@ -20,6 +23,9 @@ $(function() {
 				e: {
 					required: 'Email ID is required.',
 					email: 'Please enter valid Email ID.'
+				},
+				tp: {
+					required: 'Telephone is required.'
 				}
 			},
 			submitHandler: function (form) {

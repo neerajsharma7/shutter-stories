@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/colorbox.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/skdslider.css" rel="stylesheet">
   </head>
   <body>
 	<header>
@@ -50,7 +51,7 @@
 									</ul>
 								</div>
 							</li>
-							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
 							<li><a href="contactus.html">Contact Us</a></li>
 						</ul>
 					</div>
@@ -58,10 +59,15 @@
 			</nav>
 		</div>
 	</header>
-	<section>
+	<section class="listing-design">
 		<div class="container padding20">
 			<div class="row text-center">				
-				<img src="images/coming_soon.gif" />				
+				<div class="skdslider">
+					<ul id="slider" class="slides">
+						<li><img src="images/home1.jpg" /></li>
+						<li><img src="images/home3.jpg" /></li>
+					</ul>
+				</div>				
 			</div>
 		</div>		
 	</section>		
@@ -124,5 +130,11 @@
 	</footer>
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/skdslider.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#slider').skdslider({delay:5000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+		});
+	</script>
   </body>
 </html>
